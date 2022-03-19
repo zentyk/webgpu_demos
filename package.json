@@ -1,0 +1,30 @@
+{
+  "name": "webgpu",
+  "version": "1.0.0",
+  "description": "WebGPU Demos.",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "node esbuild-dev.js",
+    "build-prod": "node esbuild-prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentyk/webgpu_demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zentyk/webgpu_demos/issues"
+  },
+  "homepage": "https://github.com/zentyk/webgpu_demos#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.12",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@webgpu/types": "^0.1.12",
+    "esbuild-plugin-glsl": "^1.0.5"
+  },
+  "type": "module"
+}

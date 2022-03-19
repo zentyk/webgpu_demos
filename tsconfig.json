@@ -1,0 +1,29 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist/js",
+    "target": "es6",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "module": "es2015",
+    "sourceMap": true,
+
+    "types": [
+      "node",
+      "@webgpu/types"
+    ],
+    "esModuleInterop": true,
+    "strict": true,
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.js",
+    "dist"
+  ]
+}
